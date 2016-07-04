@@ -4,9 +4,9 @@ import urllib2
 url = raw_input('Enter the url: ')
 
 if url.startswith("http://"):
-    url = url
+    url
 elif url.startswith("https://"):
-    url = url
+    url
 elif not url.startswith("http://") or not url.startswith("https://"):
         url = "http://"+ url
 else:
